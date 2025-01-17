@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stray Kids - Inicio</title>
+    <link rel="shorcut icon" href="logoskz.jpg" type="image/jpg">
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: #00256D;
+            color: pink;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 10px;
+        }
+        .video {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 15px;
+            font-size: 24px;
+            color: #333;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #00256D;
+        }
+        .scroll-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .scroll-links a {
+            margin: 0 10px;
+            font-size: 16px;
+            text-decoration: none;
+            color: #333;
+        }
+        .scroll-links a:hover {
+            color: #00256D;
+        }
+        .imagen {
+            width: 350px;
+            height: auto;
+            margin: 10px;
+        }
+    </style>
+     <!--CSS externo-->
+     <link rel="stylesheet" href="menú.css">   
+</head>
+
+
+
+<body background="azul.jpg">
+  
+    <header>
+        <h1><marquee>Stray Kids</marquee></h1>
+        <div>
+            <a href="#final">Ir al final</a>
+        </div>
+    </header>
+
+    <!--Enlace con otra pagina nuestra-->       
+<div id="menuhorizontal">
+    <a href="biografia.html" >Biografía</a>
+    <a href="discografia.html" >Discografía</a>
+    <a href="Conciertos.html" >Conciertos</a>
+   
+
+</div>
+    
+
+    <main>
+    
+        <h2>Bienvenidos a la página oficial de Stray Kids</h2>
+        <img class="imagen" src="skz.jpg" alt="skz">
+        
+        <!-- Información sobre el grupo -->
+        <section>
+            <h3>¿Quiénes son Stray Kids?</h3>
+            <p>Stray Kids es un grupo de K-pop formado por JYP Entertainment en 2017. El grupo debutó oficialmente el 25 de marzo de 2018 con la canción "District 9". Está compuesto por ocho miembros: Bang Chan, Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin y I.N. Originalmente, el grupo era de nueve miembros, pero Woojin dejó el grupo en octubre de 2019.</p>
+
+            <p>Stray Kids ha sido aclamado por su energía única y su habilidad para componer, producir y coreografiar su propia música. Han creado una base de fans leal, conocida como "STAY", gracias a su estilo musical innovador y su enfoque creativo en los escenarios.</p>
+
+            <p>Con una mezcla de géneros como hip-hop, rap, electrónica y música pop, Stray Kids continúa conquistando el mundo con sus potentes actuaciones y letras emocionales.</p>
+        </section>
+
+            <!--Formulario-->
+            <br><br>
+            <h1>Formulario de Stray Kids</h1>
+            <form action="/submit" method="POST">
+                <!-- Pregunta sobre el debut -->
+                <label for="debut">¿Cuándo debutó Stray Kids?</label><br>
+                <select id="debut" name="debut" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                </select>
+                <br><br>
+        
+                <!-- Canción favorita -->
+                <label for="fav_song">¿Canción favorita?</label><br>
+                <input type="text" id="fav_song" name="fav_song" placeholder="Escribe tu canción favorita" required>
+                <br><br>
+        
+                <!-- Álbum con el que empezaste -->
+                <label for="first_album">¿Álbum por el que empezaste a conocerlos?</label><br>
+                <input type="text" id="first_album" name="first_album" placeholder="Escribe el nombre del álbum" required>
+                <br><br>
+        
+                <!-- Tiempo escuchando -->
+                <label for="listening_time">¿Hace cuánto empezaste a escuchar Stray Kids?</label><br>
+                <input type="text" id="listening_time" name="listening_time" placeholder="Ejemplo: 1 año, 6 meses" required>
+                <br><br>
+        
+                <button type="submit">Enviar</button>
+            </form>
+
+            <br><br>
+
+        <!--Indice-->
+        <h2>Indice</h2>
+        <ul>
+            <li><a href="discografia.html">Discografía</a></li>
+            <li><a href="biografia.html">Biografía</a></li>
+            <li><a href="Conciertos.html">Conciertos </a></li>
+           
+           
+        </ul>
+
+        <!-- Redes Sociales -->
+        <h3>Redes sociales</h3>
+        <ul>
+            <li><a href="https://www.instagram.com/realstraykids/" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/Stray_Kids" target="_blank">Twitter</a></li>
+            <li><a href="https://www.youtube.com/channel/UCOhHO2ICt0ti9KAh-QHvK1Q" target="_blank">YouTube</a></li>
+        </ul>
+
+        <!-- Enlaces de desplazamiento -->
+        <div>
+            <a href="#final">Ir al principio</a>
+        </div>
+    </main>
+    <!-- Marcar el final de la página -->
+    <div id="final"></div>
+</body>
+</html>

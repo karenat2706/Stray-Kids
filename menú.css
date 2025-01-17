@@ -1,0 +1,26 @@
+/* Menú Horizontal */
+#menuhorizontal {
+    width: 500px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-left: 750px;
+    font-size: 150%;
+}
+
+#menuhorizontal a {
+    padding: 0px 25px 0px;
+    color: black;
+    background-color: #00256D;
+    text-decoration: none;
+}
+
+#menuhorizontal a:hover {
+    background: #00256D;
+    color: pink;
+}
+
+/* Fondo */
+body {
+    background: url("azul.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
